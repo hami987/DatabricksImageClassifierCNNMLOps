@@ -3,8 +3,6 @@ from models.cnn import build_model, SklearnModelWrapper
 from data.preprocessing import download_preprocess
 from data.plot_data import plot_10
 
-
-
 if __name__ == "__main__":
     
     model = build_model()
