@@ -1,0 +1,8 @@
+mlflow
+bcrypt==4.0.1
+boto3==1.26.6
+cloudpickle==2.2.0
+google-cloud-storage==2.6.0
+pillow==9.4.0
+pyopenssl==22.1.0
+tensorflow-intel==2.11.0

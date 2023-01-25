@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Johannes.Hammacher/OneDrive%20-%20Collaboration%20Betters%20The%20World/Desktop/DatabricksImageClassifierCNNMLOps/mlruns/0/1ffa15ba910f41ee8a9c104abd2dfd23/artifacts
+end_time: 1674635544386
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ffa15ba910f41ee8a9c104abd2dfd23
+run_name: cnn_image_classifier_demo
+run_uuid: 1ffa15ba910f41ee8a9c104abd2dfd23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674635544337
+status: 4
+tags: []
+user_id: Johannes.Hammacher

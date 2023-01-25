@@ -2,13 +2,14 @@ import mlflow
 from models.cnn import build_model, SklearnModelWrapper
 from data.preprocessing import download_preprocess
 from data.plot_data import plot_10
+import tensorflow as tf
 
 
 
 if __name__ == "__main__":
     
     model = build_model()
-    model = SklearnModelWrapper(model=model)
+    
     train_images, train_labels, test_images, test_labels, class_names = download_preprocess()
     plot_10(train_images=train_images, class_names=class_names, train_labels=train_labels)
     

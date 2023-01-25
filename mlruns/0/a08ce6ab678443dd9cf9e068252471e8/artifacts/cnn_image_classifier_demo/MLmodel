@@ -1,0 +1,12 @@
+artifact_path: cnn_image_classifier_demo
+flavors:
+  python_function:
+    cloudpickle_version: 2.2.0
+    env: conda.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.10.6
+mlflow_version: 1.30.0
+model_uuid: 2114e7cfe5a04313adbaa15676bd244c
+run_id: a08ce6ab678443dd9cf9e068252471e8
+utc_time_created: '2023-01-25 08:43:35.920977'

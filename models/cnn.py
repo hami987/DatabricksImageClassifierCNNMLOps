@@ -19,9 +19,7 @@ def build_model():
     model.add(layers.Dense(10))
 
     model.summary()
-    model.compile(optimizer='adam', 
-             loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
-             metrics=['accuracy'])
+    
     return model
 
 if __name__ == "__main__":
